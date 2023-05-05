@@ -1,0 +1,85 @@
+/* шрифт */
+
+.font {
+  font-family: 'Courier New', Courier, monospace; /* Семейство шрифта */
+  font-size: 16px; /* размер шрифта */
+  font-weight: 600; /* жирность */
+  line-height: 1.2; /* межстрочное растояние */
+  color: blue; /* цвет текста */
+
+  text-align: center;
+}
+
+/* Позиционирование */
+
+.position {
+  position: relative; /* absolute | fixed | sticky | static */
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  transform: translateY(30px);
+  transform: translateX(30px);
+  transform: rotate(30deg);
+}
+
+/* Ширина - Высота */
+.wh {
+  width: 100px; /* ширина */
+  max-width: 100px;
+  height: 100px; /* высота */
+  max-height: 100px;
+}
+
+/* Отступы */
+.pm {
+  padding: 6px; /* внутренний отступ */
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding: 6px 6px 6px 6px;
+
+  margin: 6px; /* внешний отступ */
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin: 6px 6px 6px 6px;
+}
+
+.bg {
+  background-color: red;
+  background-image: url('/img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.bord {
+  border: 1px solid #000000;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+
+  border-color: blueviolet;
+
+  border-style: dotted;
+
+  border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.light-animation {
+  transition: all 0.3s ease;
+}
